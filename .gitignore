@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Experiment tracking
+wandb/
+
+# Local data + outputs (do not track)
+src/DATA/
+src/RESULTS/
+
+# Local models/checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Local outputs
+outputs/
+results/
+artifacts/
+runs/
